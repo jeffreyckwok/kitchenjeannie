@@ -232,7 +232,7 @@ class DietChoiceViewController: UIViewController, UITableViewDelegate, UITableVi
         
         
         let headers: HTTPHeaders = [
-            "X-Mashape-Key": "NIDNT5lgrumshEiE5SArMD1vzfBRp1BS8BpjsnKVl5gyah0rQF",
+            "X-Mashape-Key": "apikey",
             "Accept": "application/json"
         ]
         Alamofire.request(url!, method: .get, parameters: nil, headers: headers)
@@ -318,7 +318,7 @@ class DietChoiceViewController: UIViewController, UITableViewDelegate, UITableVi
         
         
         let headers: HTTPHeaders = [
-            "X-Mashape-Key": "xi3CieZWuHmshJPARhNm4QYFBYUCp1W5HejjsnZ7QBSuRXMoTQ",
+            "X-Mashape-Key": "apikey",
             "Accept": "application/json"
         ]
         
