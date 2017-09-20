@@ -1,0 +1,6 @@
+framework module Pods_Kitchen_JeannieUITests {
+  umbrella header "Pods-Kitchen_JeannieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

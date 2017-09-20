@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08832041DD14F6C6C47C08B1 /* Pods_Kitchen_JeannieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D76434F1A611657E26C8FC /* Pods_Kitchen_JeannieTests.framework */; };
+		373210CB1EDD19CA000810E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210CA1EDD19CA000810E0 /* AppDelegate.swift */; };
+		373210CD1EDD19CA000810E0 /* KitchenJeannieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210CC1EDD19CA000810E0 /* KitchenJeannieViewController.swift */; };
+		373210D01EDD19CA000810E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373210CE1EDD19CA000810E0 /* Main.storyboard */; };
+		373210D21EDD19CA000810E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373210D11EDD19CA000810E0 /* Assets.xcassets */; };
+		373210D51EDD19CA000810E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373210D31EDD19CA000810E0 /* LaunchScreen.storyboard */; };
+		373210E01EDD19CB000810E0 /* Kitchen_JeannieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210DF1EDD19CB000810E0 /* Kitchen_JeannieTests.swift */; };
+		373210EB1EDD19CB000810E0 /* Kitchen_JeannieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210EA1EDD19CB000810E0 /* Kitchen_JeannieUITests.swift */; };
+		373210F91EDDFD37000810E0 /* DietChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210F81EDDFD37000810E0 /* DietChoiceViewController.swift */; };
+		373210FB1EDDFE9E000810E0 /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210FA1EDDFE9E000810E0 /* RecipeDetailsViewController.swift */; };
+		373210FD1EDDFEC7000810E0 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210FC1EDDFEC7000810E0 /* PreferencesViewController.swift */; };
+		373210FF1EDDFEE5000810E0 /* SavedRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373210FE1EDDFEE5000810E0 /* SavedRecipesViewController.swift */; };
+		373211041EDE41CD000810E0 /* DietSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373211031EDE41CD000810E0 /* DietSearchCell.swift */; };
+		373211071EE09D4C000810E0 /* Recipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 373211051EE09D4C000810E0 /* Recipe.xcdatamodeld */; };
+		373211091EE0A07D000810E0 /* SavedRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373211081EE0A07D000810E0 /* SavedRecipeCell.swift */; };
+		373234BA1EE0F94A0037BB4E /* PrefCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373234B91EE0F94A0037BB4E /* PrefCell.swift */; };
+		373234BC1EE102140037BB4E /* RecipeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373234BB1EE102140037BB4E /* RecipeDetailCell.swift */; };
+		373234BE1EE107020037BB4E /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373234BD1EE107020037BB4E /* SearchRecipeViewController.swift */; };
+		373234C01EE117840037BB4E /* AddIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373234BF1EE117840037BB4E /* AddIngredientViewController.swift */; };
+		373234C41EE119A40037BB4E /* AddIngredientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373234C31EE119A40037BB4E /* AddIngredientDelegate.swift */; };
+		7038E29B42E3D07F4B75C3C0 /* Pods_Kitchen_Jeannie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C1D2E475034660C74D52DB /* Pods_Kitchen_Jeannie.framework */; };
+		F57136A45028021366831DFA /* Pods_Kitchen_JeannieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279AD1301A25EB9555A881F3 /* Pods_Kitchen_JeannieUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373210DC1EDD19CB000810E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373210BF1EDD19CA000810E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373210C61EDD19CA000810E0;
+			remoteInfo = Kitchen_Jeannie;
+		};
+		373210E71EDD19CB000810E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373210BF1EDD19CA000810E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373210C61EDD19CA000810E0;
+			remoteInfo = Kitchen_Jeannie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		231BCEC7718103068B40B4D7 /* Pods-Kitchen_JeannieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_JeannieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_JeannieTests/Pods-Kitchen_JeannieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		279AD1301A25EB9555A881F3 /* Pods_Kitchen_JeannieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitchen_JeannieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C51FD1135377D925B370343 /* Pods-Kitchen_JeannieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_JeannieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_JeannieUITests/Pods-Kitchen_JeannieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36D76434F1A611657E26C8FC /* Pods_Kitchen_JeannieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitchen_JeannieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373210C71EDD19CA000810E0 /* Kitchen_Jeannie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitchen_Jeannie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373210CA1EDD19CA000810E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373210CC1EDD19CA000810E0 /* KitchenJeannieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenJeannieViewController.swift; sourceTree = "<group>"; };
+		373210CF1EDD19CA000810E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373210D11EDD19CA000810E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373210D41EDD19CA000810E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		373210D61EDD19CB000810E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373210DB1EDD19CB000810E0 /* Kitchen_JeannieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kitchen_JeannieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373210DF1EDD19CB000810E0 /* Kitchen_JeannieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_JeannieTests.swift; sourceTree = "<group>"; };
+		373210E11EDD19CB000810E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373210E61EDD19CB000810E0 /* Kitchen_JeannieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kitchen_JeannieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373210EA1EDD19CB000810E0 /* Kitchen_JeannieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen_JeannieUITests.swift; sourceTree = "<group>"; };
+		373210EC1EDD19CB000810E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373210F81EDDFD37000810E0 /* DietChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietChoiceViewController.swift; sourceTree = "<group>"; };
+		373210FA1EDDFE9E000810E0 /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		373210FC1EDDFEC7000810E0 /* PreferencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		373210FE1EDDFEE5000810E0 /* SavedRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecipesViewController.swift; sourceTree = "<group>"; };
+		373211031EDE41CD000810E0 /* DietSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietSearchCell.swift; sourceTree = "<group>"; };
+		373211061EE09D4C000810E0 /* Recipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipe.xcdatamodel; sourceTree = "<group>"; };
+		373211081EE0A07D000810E0 /* SavedRecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedRecipeCell.swift; sourceTree = "<group>"; };
+		373234B91EE0F94A0037BB4E /* PrefCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefCell.swift; sourceTree = "<group>"; };
+		373234BB1EE102140037BB4E /* RecipeDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailCell.swift; sourceTree = "<group>"; };
+		373234BD1EE107020037BB4E /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		373234BF1EE117840037BB4E /* AddIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientViewController.swift; sourceTree = "<group>"; };
+		373234C31EE119A40037BB4E /* AddIngredientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIngredientDelegate.swift; sourceTree = "<group>"; };
+		3E6A8A0CC422AAAB6CCA34BA /* Pods-Kitchen_JeannieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_JeannieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_JeannieTests/Pods-Kitchen_JeannieTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E71AC3ED42D5149C5CDEC55 /* Pods-Kitchen_Jeannie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_Jeannie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_Jeannie/Pods-Kitchen_Jeannie.release.xcconfig"; sourceTree = "<group>"; };
+		9506FA1938696CC5BF0E4D1C /* Pods-Kitchen_Jeannie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_Jeannie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_Jeannie/Pods-Kitchen_Jeannie.debug.xcconfig"; sourceTree = "<group>"; };
+		C8FD89FD9A3A0A47D53FCE3B /* Pods-Kitchen_JeannieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kitchen_JeannieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kitchen_JeannieUITests/Pods-Kitchen_JeannieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C1D2E475034660C74D52DB /* Pods_Kitchen_Jeannie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kitchen_Jeannie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373210C41EDD19CA000810E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7038E29B42E3D07F4B75C3C0 /* Pods_Kitchen_Jeannie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210D81EDD19CB000810E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08832041DD14F6C6C47C08B1 /* Pods_Kitchen_JeannieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210E31EDD19CB000810E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F57136A45028021366831DFA /* Pods_Kitchen_JeannieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373210BE1EDD19CA000810E0 = {
+			isa = PBXGroup;
+			children = (
+				373210C91EDD19CA000810E0 /* Kitchen_Jeannie */,
+				373210DE1EDD19CB000810E0 /* Kitchen_JeannieTests */,
+				373210E91EDD19CB000810E0 /* Kitchen_JeannieUITests */,
+				373210C81EDD19CA000810E0 /* Products */,
+				5730AD46E4F1DC4439370893 /* Pods */,
+				F57F21E3984DF2F47D29671B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		373210C81EDD19CA000810E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373210C71EDD19CA000810E0 /* Kitchen_Jeannie.app */,
+				373210DB1EDD19CB000810E0 /* Kitchen_JeannieTests.xctest */,
+				373210E61EDD19CB000810E0 /* Kitchen_JeannieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373210C91EDD19CA000810E0 /* Kitchen_Jeannie */ = {
+			isa = PBXGroup;
+			children = (
+				373210CA1EDD19CA000810E0 /* AppDelegate.swift */,
+				373210CC1EDD19CA000810E0 /* KitchenJeannieViewController.swift */,
+				373210F81EDDFD37000810E0 /* DietChoiceViewController.swift */,
+				373210FA1EDDFE9E000810E0 /* RecipeDetailsViewController.swift */,
+				373210FC1EDDFEC7000810E0 /* PreferencesViewController.swift */,
+				373210FE1EDDFEE5000810E0 /* SavedRecipesViewController.swift */,
+				373234BD1EE107020037BB4E /* SearchRecipeViewController.swift */,
+				373234BF1EE117840037BB4E /* AddIngredientViewController.swift */,
+				373210CE1EDD19CA000810E0 /* Main.storyboard */,
+				373210D11EDD19CA000810E0 /* Assets.xcassets */,
+				373210D31EDD19CA000810E0 /* LaunchScreen.storyboard */,
+				373210D61EDD19CB000810E0 /* Info.plist */,
+				373211031EDE41CD000810E0 /* DietSearchCell.swift */,
+				373211051EE09D4C000810E0 /* Recipe.xcdatamodeld */,
+				373211081EE0A07D000810E0 /* SavedRecipeCell.swift */,
+				373234B91EE0F94A0037BB4E /* PrefCell.swift */,
+				373234BB1EE102140037BB4E /* RecipeDetailCell.swift */,
+				373234C31EE119A40037BB4E /* AddIngredientDelegate.swift */,
+			);
+			path = Kitchen_Jeannie;
+			sourceTree = "<group>";
+		};
+		373210DE1EDD19CB000810E0 /* Kitchen_JeannieTests */ = {
+			isa = PBXGroup;
+			children = (
+				373210DF1EDD19CB000810E0 /* Kitchen_JeannieTests.swift */,
+				373210E11EDD19CB000810E0 /* Info.plist */,
+			);
+			path = Kitchen_JeannieTests;
+			sourceTree = "<group>";
+		};
+		373210E91EDD19CB000810E0 /* Kitchen_JeannieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				373210EA1EDD19CB000810E0 /* Kitchen_JeannieUITests.swift */,
+				373210EC1EDD19CB000810E0 /* Info.plist */,
+			);
+			path = Kitchen_JeannieUITests;
+			sourceTree = "<group>";
+		};
+		5730AD46E4F1DC4439370893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9506FA1938696CC5BF0E4D1C /* Pods-Kitchen_Jeannie.debug.xcconfig */,
+				8E71AC3ED42D5149C5CDEC55 /* Pods-Kitchen_Jeannie.release.xcconfig */,
+				231BCEC7718103068B40B4D7 /* Pods-Kitchen_JeannieTests.debug.xcconfig */,
+				3E6A8A0CC422AAAB6CCA34BA /* Pods-Kitchen_JeannieTests.release.xcconfig */,
+				C8FD89FD9A3A0A47D53FCE3B /* Pods-Kitchen_JeannieUITests.debug.xcconfig */,
+				2C51FD1135377D925B370343 /* Pods-Kitchen_JeannieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F57F21E3984DF2F47D29671B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4C1D2E475034660C74D52DB /* Pods_Kitchen_Jeannie.framework */,
+				36D76434F1A611657E26C8FC /* Pods_Kitchen_JeannieTests.framework */,
+				279AD1301A25EB9555A881F3 /* Pods_Kitchen_JeannieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373210C61EDD19CA000810E0 /* Kitchen_Jeannie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373210EF1EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_Jeannie" */;
+			buildPhases = (
+				55600A1963BD1CBD9B8ACF23 /* [CP] Check Pods Manifest.lock */,
+				373210C31EDD19CA000810E0 /* Sources */,
+				373210C41EDD19CA000810E0 /* Frameworks */,
+				373210C51EDD19CA000810E0 /* Resources */,
+				D4FDC403C6A4EA66A9474BAE /* [CP] Embed Pods Frameworks */,
+				0E2E19A727FBEA3BB2F14E1C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kitchen_Jeannie;
+			productName = Kitchen_Jeannie;
+			productReference = 373210C71EDD19CA000810E0 /* Kitchen_Jeannie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373210DA1EDD19CB000810E0 /* Kitchen_JeannieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373210F21EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_JeannieTests" */;
+			buildPhases = (
+				1813EA5C9EA409EB56F34586 /* [CP] Check Pods Manifest.lock */,
+				373210D71EDD19CB000810E0 /* Sources */,
+				373210D81EDD19CB000810E0 /* Frameworks */,
+				373210D91EDD19CB000810E0 /* Resources */,
+				3797586C8A34491013C9B530 /* [CP] Embed Pods Frameworks */,
+				44D6D55558B158AEFD489493 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373210DD1EDD19CB000810E0 /* PBXTargetDependency */,
+			);
+			name = Kitchen_JeannieTests;
+			productName = Kitchen_JeannieTests;
+			productReference = 373210DB1EDD19CB000810E0 /* Kitchen_JeannieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		373210E51EDD19CB000810E0 /* Kitchen_JeannieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373210F51EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_JeannieUITests" */;
+			buildPhases = (
+				52F2C654B79A8FBD14A5891D /* [CP] Check Pods Manifest.lock */,
+				373210E21EDD19CB000810E0 /* Sources */,
+				373210E31EDD19CB000810E0 /* Frameworks */,
+				373210E41EDD19CB000810E0 /* Resources */,
+				295ABA68543E17C93E8AC48D /* [CP] Embed Pods Frameworks */,
+				6990EAAADE2A44C966985C06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373210E81EDD19CB000810E0 /* PBXTargetDependency */,
+			);
+			name = Kitchen_JeannieUITests;
+			productName = Kitchen_JeannieUITests;
+			productReference = 373210E61EDD19CB000810E0 /* Kitchen_JeannieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373210BF1EDD19CA000810E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tanna Brauer";
+				TargetAttributes = {
+					373210C61EDD19CA000810E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L2GRY5NPHY;
+						ProvisioningStyle = Automatic;
+					};
+					373210DA1EDD19CB000810E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L2GRY5NPHY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 373210C61EDD19CA000810E0;
+					};
+					373210E51EDD19CB000810E0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L2GRY5NPHY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 373210C61EDD19CA000810E0;
+					};
+				};
+			};
+			buildConfigurationList = 373210C21EDD19CA000810E0 /* Build configuration list for PBXProject "Kitchen_Jeannie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373210BE1EDD19CA000810E0;
+			productRefGroup = 373210C81EDD19CA000810E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373210C61EDD19CA000810E0 /* Kitchen_Jeannie */,
+				373210DA1EDD19CB000810E0 /* Kitchen_JeannieTests */,
+				373210E51EDD19CB000810E0 /* Kitchen_JeannieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373210C51EDD19CA000810E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373210D51EDD19CA000810E0 /* LaunchScreen.storyboard in Resources */,
+				373210D21EDD19CA000810E0 /* Assets.xcassets in Resources */,
+				373210D01EDD19CA000810E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210D91EDD19CB000810E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210E41EDD19CB000810E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2E19A727FBEA3BB2F14E1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_Jeannie/Pods-Kitchen_Jeannie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1813EA5C9EA409EB56F34586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		295ABA68543E17C93E8AC48D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_JeannieUITests/Pods-Kitchen_JeannieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3797586C8A34491013C9B530 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_JeannieTests/Pods-Kitchen_JeannieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44D6D55558B158AEFD489493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_JeannieTests/Pods-Kitchen_JeannieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F2C654B79A8FBD14A5891D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		55600A1963BD1CBD9B8ACF23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6990EAAADE2A44C966985C06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_JeannieUITests/Pods-Kitchen_JeannieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FDC403C6A4EA66A9474BAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kitchen_Jeannie/Pods-Kitchen_Jeannie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373210C31EDD19CA000810E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373234BE1EE107020037BB4E /* SearchRecipeViewController.swift in Sources */,
+				373234C01EE117840037BB4E /* AddIngredientViewController.swift in Sources */,
+				373211041EDE41CD000810E0 /* DietSearchCell.swift in Sources */,
+				373210FD1EDDFEC7000810E0 /* PreferencesViewController.swift in Sources */,
+				373210F91EDDFD37000810E0 /* DietChoiceViewController.swift in Sources */,
+				373211071EE09D4C000810E0 /* Recipe.xcdatamodeld in Sources */,
+				373210FF1EDDFEE5000810E0 /* SavedRecipesViewController.swift in Sources */,
+				373210CD1EDD19CA000810E0 /* KitchenJeannieViewController.swift in Sources */,
+				373234BA1EE0F94A0037BB4E /* PrefCell.swift in Sources */,
+				373234C41EE119A40037BB4E /* AddIngredientDelegate.swift in Sources */,
+				373211091EE0A07D000810E0 /* SavedRecipeCell.swift in Sources */,
+				373210CB1EDD19CA000810E0 /* AppDelegate.swift in Sources */,
+				373210FB1EDDFE9E000810E0 /* RecipeDetailsViewController.swift in Sources */,
+				373234BC1EE102140037BB4E /* RecipeDetailCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210D71EDD19CB000810E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373210E01EDD19CB000810E0 /* Kitchen_JeannieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373210E21EDD19CB000810E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373210EB1EDD19CB000810E0 /* Kitchen_JeannieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373210DD1EDD19CB000810E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373210C61EDD19CA000810E0 /* Kitchen_Jeannie */;
+			targetProxy = 373210DC1EDD19CB000810E0 /* PBXContainerItemProxy */;
+		};
+		373210E81EDD19CB000810E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373210C61EDD19CA000810E0 /* Kitchen_Jeannie */;
+			targetProxy = 373210E71EDD19CB000810E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373210CE1EDD19CA000810E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373210CF1EDD19CA000810E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		373210D31EDD19CA000810E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373210D41EDD19CA000810E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373210ED1EDD19CB000810E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		373210EE1EDD19CB000810E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		373210F01EDD19CB000810E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9506FA1938696CC5BF0E4D1C /* Pods-Kitchen_Jeannie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_Jeannie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-Jeannie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		373210F11EDD19CB000810E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E71AC3ED42D5149C5CDEC55 /* Pods-Kitchen_Jeannie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_Jeannie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-Jeannie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		373210F31EDD19CB000810E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231BCEC7718103068B40B4D7 /* Pods-Kitchen_JeannieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_JeannieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-JeannieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen_Jeannie.app/Kitchen_Jeannie";
+			};
+			name = Debug;
+		};
+		373210F41EDD19CB000810E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6A8A0CC422AAAB6CCA34BA /* Pods-Kitchen_JeannieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_JeannieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-JeannieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kitchen_Jeannie.app/Kitchen_Jeannie";
+			};
+			name = Release;
+		};
+		373210F61EDD19CB000810E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FD89FD9A3A0A47D53FCE3B /* Pods-Kitchen_JeannieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_JeannieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-JeannieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kitchen_Jeannie;
+			};
+			name = Debug;
+		};
+		373210F71EDD19CB000810E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C51FD1135377D925B370343 /* Pods-Kitchen_JeannieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L2GRY5NPHY;
+				INFOPLIST_FILE = Kitchen_JeannieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannabrauer.Kitchen-JeannieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Kitchen_Jeannie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373210C21EDD19CA000810E0 /* Build configuration list for PBXProject "Kitchen_Jeannie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373210ED1EDD19CB000810E0 /* Debug */,
+				373210EE1EDD19CB000810E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373210EF1EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_Jeannie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373210F01EDD19CB000810E0 /* Debug */,
+				373210F11EDD19CB000810E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373210F21EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_JeannieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373210F31EDD19CB000810E0 /* Debug */,
+				373210F41EDD19CB000810E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373210F51EDD19CB000810E0 /* Build configuration list for PBXNativeTarget "Kitchen_JeannieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373210F61EDD19CB000810E0 /* Debug */,
+				373210F71EDD19CB000810E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		373211051EE09D4C000810E0 /* Recipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				373211061EE09D4C000810E0 /* Recipe.xcdatamodel */,
+			);
+			currentVersion = 373211061EE09D4C000810E0 /* Recipe.xcdatamodel */;
+			path = Recipe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 373210BF1EDD19CA000810E0 /* Project object */;
+}
