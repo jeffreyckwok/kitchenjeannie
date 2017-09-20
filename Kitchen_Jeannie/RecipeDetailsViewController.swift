@@ -118,7 +118,7 @@ class RecipeDetailsViewController: UIViewController, UITableViewDelegate, UITabl
         print(url ?? "nil")
         
         let headers: HTTPHeaders = [
-            "X-Mashape-Key": "NIDNT5lgrumshEiE5SArMD1vzfBRp1BS8BpjsnKVl5gyah0rQF",
+            "X-Mashape-Key": "apikey",
             "Accept": "application/json"
         ]
         Alamofire.request(url!, method: .get, parameters: nil, headers: headers)
@@ -159,7 +159,7 @@ class RecipeDetailsViewController: UIViewController, UITableViewDelegate, UITabl
         print(url ?? "nil")
         
         let headers: HTTPHeaders = [
-            "X-Mashape-Key": "NIDNT5lgrumshEiE5SArMD1vzfBRp1BS8BpjsnKVl5gyah0rQF",
+            "X-Mashape-Key": "apikey",
             "Accept": "application/json"
         ]
         Alamofire.request(url!, method: .get, parameters: nil, headers: headers)
